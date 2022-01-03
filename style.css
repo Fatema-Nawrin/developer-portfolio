@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 125px;
 }
 .half-width{
     width: 50%;
@@ -22,7 +23,7 @@ section{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(lightsalmon,rgb(248, 45, 130));
+    background-image: linear-gradient(rgb(252, 149, 157),rgb(248, 45, 96));
     color: white;
     font-weight: 800;
     padding: 10px 40px;
@@ -31,4 +32,9 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
